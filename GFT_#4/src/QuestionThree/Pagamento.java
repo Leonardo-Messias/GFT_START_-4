@@ -16,8 +16,6 @@ public class Pagamento {
         } else {
             Double troco = (getValorRecebido() - getValorPagar());
             System.out.println("Troco de: R$" + troco);
-
-
         }
     }
 
