@@ -3,6 +3,15 @@
 //public class Letras {
 //    private String letra1, letra2;
 //
+//    public Letras(String letra1, String letra2) {
+//        this.letra1 = letra1;
+//        this.letra2 = letra2;
+//    }
+//
+//    public void tamanho(){
+//        System.out.println(getLetra1().length() getLetra1().length());
+//    }
+//
 //    public String getLetra1() {
 //        return letra1;
 //    }
@@ -19,10 +28,4 @@
 //        this.letra2 = letra2;
 //    }
 //
-//    public void contagem(){
-//        if(getLetra1() && getLetra2()){
-//
-//        }
-//
-//    }
 //}
