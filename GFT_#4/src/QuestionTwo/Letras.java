@@ -12,7 +12,6 @@ public class Letras {
         System.out.println(getLetra1().length());
         System.out.println(getLetra2().length());
         System.out.println("--------------");
-        System.out.println(getLetra1().compareTo(getLetra2()));;
     }
 
     public String getLetra1() {
