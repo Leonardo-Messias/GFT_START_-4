@@ -5,7 +5,7 @@ public class Pagamento {
 
     public Pagamento(Double valorPagar, Double valorRecebido) {
         this.valorPagar = valorPagar;
-        ValorRecebido = valorRecebido;
+        this.ValorRecebido = valorRecebido;
     }
 
     public void pagar() {
@@ -16,6 +16,8 @@ public class Pagamento {
         } else {
             Double troco = (getValorRecebido() - getValorPagar());
             System.out.println("Troco de: R$" + troco);
+
+
         }
     }
 
